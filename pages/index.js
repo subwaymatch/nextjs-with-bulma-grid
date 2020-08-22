@@ -8,7 +8,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section class="section">
+      <section className="section">
         <div className="container is-widescreen">
           <div className="columns">
             <div className="column">
