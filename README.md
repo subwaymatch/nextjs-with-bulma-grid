@@ -1,30 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js with Bulma Grid example
 
-## Getting Started
+**[Demo - https://nextjs-with-bulma-grid.vercel.app/](https://nextjs-with-bulma-grid.vercel.app/)**<br /><br />
 
-First, run the development server:
+This is a basic example to demonstrate how to use [Bulma](https://bulma.io) Grid with selective `sass` imports in [Next.js](https://nextjs.org).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![nextjs-with-bulma-grid-screenshot](https://user-images.githubusercontent.com/1064036/90951723-f04fbd00-e422-11ea-8ed5-6cae541091b5.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why Bulma?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+I've been searching for a Grid system that plays well with [Next.js](https://nextjs.org). I list a few other options I've considered, but [Bulma](https://bulma.io) just felt "right" for me :+1:.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Bootstrap](https://getbootstrap.com/) - De-facto standard (based on popularity) when it comes to a CSS framework, but it feels too bloated. Yes, you can import only the grid components. But it's unclear which `sass` files I need to import and how to customize them without extensively reading the `sass` code.
+- [Material UI](https://material-ui.com/) - Great alternative. The only reason I don't use it is since I can't apply `framer-motion` animations directly to Material-UI components.
+- [Flexbox Grid](http://flexboxgrid.com/) - Used to be (and continues to be) popular, but isn't maintained anymore.
